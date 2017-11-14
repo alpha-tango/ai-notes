@@ -68,3 +68,9 @@ class Perceptron:
             self.update_weights(actual)
 
         return self.weights
+
+class Trainer:
+
+    def __init__(self, input_list, answer):
+        self.input_list = input_list
+        self.answer = answer
